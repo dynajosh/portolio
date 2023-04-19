@@ -1,6 +1,7 @@
 import Pill from "../components/Pill"
 import WorkHistory from "../sections/Experience"
 import Skills from "../sections/Skills"
+import Projects from "../sections/Projects"
 
 export default function Home() {
     return (
@@ -32,9 +33,11 @@ export default function Home() {
            
             </div>
         </div>
-        
         <div className="bg-black w-[100%] flex flex-col items-center">
             <WorkHistory />
+        </div>
+        <div className=" w-[100%] py-[100px] max-w-[1300px] px-[25px]">
+            <Projects />
         </div>
         
      </div>
