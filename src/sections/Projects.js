@@ -1,24 +1,24 @@
 const projects = [
     {
-        imageSrc: "hfhfhf",
-        title: "Student Register",
-        description: "sebebebebebebebee",
+        imageSrc: "/images/gambit.jpg",
+        title: "Gambit",
+        description: "Backend Engineering on a cryptocurrency based peer to peer gambling platform using NodeJS, Postgresql, AWS and Docker",
         githubLink: "github.com",
-        liveViewLink: "goal.com"
+        liveViewLink: "https://usegambit.com"
     },
     {
-        imageSrc: "hfhfhf",
+        imageSrc: "/images/watchdawg.jpg",
         title: "Watchdawg",
-        description: "sebebebebebebebee",
+        description: "Fullstack Engineering on a Movie Reminder app that lets users never miss a movie using Django Rest Framework, and ReactJS",
         githubLink: "github.com",
         liveViewLink: "https://watchdawg.app"
     },
     {
-        imageSrc: "hfhfhf",
-        title: "Student Register",
-        description: "sebebebebebebebee",
+        imageSrc: "/images/doings.jpg",
+        title: "Doings Exchange",
+        description: "Fullstack Engineering on a Currency Exchange Platform using NodeJS, NextJS, MongoDB, AWS and Docker",
         githubLink: "github.com",
-        liveViewLink: "goal.com"
+        liveViewLink: "https://doings.africa"
     },
 ]
 
