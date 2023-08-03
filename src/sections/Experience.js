@@ -120,7 +120,7 @@ const WorkHistory = () => {
                 {experience.contributions && (
                   <>
                     <button
-                      className="bg-white text-black px-2 py-1 rounded-md mb-2"
+                      className="bg-white text-black px-4 py-2 mb-2"
                       onClick={() => setSelectedExperienceIndex(selectedExperienceIndex === index ? -1 : index)}
                     >
                       {selectedExperienceIndex === index ? "Hide Contributions" : "Show Contributions"}
