@@ -20,6 +20,13 @@ const projects = [
         githubLink: "github.com",
         liveViewLink: "https://doings.africa"
     },
+    {
+      imageSrc: "/images/darkdesires.jpg",
+      title: "Dark Desires",
+      description: "An outlet for people to share their desires and wants anonynously. Built with Django Rest Framework, Postgresql and ReactJS",
+      githubLink: "github.com",
+      liveViewLink: "https://darkdesires.live"
+  },
 ]
 
 
@@ -48,29 +55,27 @@ const ProjectCard = ({ imageSrc, title, description, githubLink, liveViewLink })
   };
 
 
-const Projects  = () => {
-    return(
+  const Projects = () => {
+    return (
         <div>
             <div>
-            <h1 className="text-[50px] mb-[40px]">Projects</h1>
+                <h1 className="text-[50px] mb-[40px]">Proof of work</h1>
             </div>
-            <div className="flex flex-col gap-[20px] md:flex-row">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                 {
-                    projects.map((project)=>(
+                    projects.map((project) => (
                         <ProjectCard 
                             imageSrc={project.imageSrc}
                             title={project.title}
                             description={project.description}
-                            githubLink = {project.githubLink}
-                            liveViewLink = {project.liveViewLink}
+                            githubLink={project.githubLink}
+                            liveViewLink={project.liveViewLink}
                         />
                     ))
                 }
-
             </div>
         </div>
-    )
-        
-}
+    );
+};
 
 export default Projects;

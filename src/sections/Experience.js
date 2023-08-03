@@ -104,7 +104,7 @@ const WorkHistory = () => {
   const [selectedExperienceIndex, setSelectedExperienceIndex] = useState(-1);
 
   return (
-    <div className="bg-black py-[100px] w-full max-w-[1300px]">
+    <div className="bg-[#0B0705] py-[100px] w-full max-w-[1300px]">
       <div className="container mx-auto px-[30px]">
         <h2 className="text-3xl font-bold mb-4 text-white">Work History</h2>
         <div className="space-y-8">

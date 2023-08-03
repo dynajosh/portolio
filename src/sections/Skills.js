@@ -10,51 +10,39 @@ const Skills = () => {
             <div className="flex flex-wrap">
                 <Pill 
                     text="Python"
-                    bgColor="#3B82F6"
+                    imgSrc="/icons/python.png"
                 />
                  <Pill 
                 text="JavaScript"
-                bgColor="#10B981"
+                imgSrc="/icons/js.png"
                 />
                 <Pill 
                 text="Typescript"
-                bgColor="#14B8A6"
+                imgSrc="/icons/ts.webp"
                 />
                 <Pill 
                 text="Django"
-                bgColor="#FBBF24"
+                imgSrc="/icons/django.png"
                 />
                 <Pill 
                 text="Express"
-                bgColor="#FBBF24"
+                imgSrc="/icons/node.png"
                 />
                 <Pill 
                 text="Fast API"
-                bgColor="#FBBF24"
+                imgSrc="/icons/fastapi.png"
                 />
                 <Pill 
                 text="ReactJS"
-                bgColor="#FBBF24"
+                imgSrc="/icons/react.svg"
                 />
                 <Pill 
                 text="AWS"
-                bgColor="#FBBF24"
+                imgSrc="/icons/aws.png"
                 />
                 <Pill 
                 text="GCP"
-                bgColor="#FBBF24"
-                />
-                <Pill 
-                text="REST API"
-                bgColor="#FBBF24"
-                />
-                <Pill 
-                text="GraphQL"
-                bgColor="#FBBF24"
-                />
-                <Pill 
-                text="Tailwind CSS"
-                bgColor="#FBBF24"
+                imgSrc="/icons/gcp.svg"
                 />
             </div>
         </div>
